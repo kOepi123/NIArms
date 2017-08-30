@@ -481,7 +481,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak762_standing.rtm";        //file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
             looped = 0;
             speed = -4.8;
             mask = "handsWeapon";
@@ -514,7 +514,7 @@ class CfgGesturesMale {
             rightHandIKEnd = true;
         };
         class HLC_GestureReloadAK762Drum_prone : Default {
-            file = "\hlc_core\animation\gesture\reload_ak762_standing.rtm";            //file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
+            file = "\hlc_core\animation\gesture\reload_ak762_prone.rtm";
             looped = 0;
             speed = 0.29;
             mask = "handsWeapon";
@@ -1286,6 +1286,10 @@ mm =     mm st steel at 200m/2.5
 Speed  = speed at 200m
 */
 
+
+
+
+
 class CfgWeapons
 {
     class ItemCore;
@@ -1298,7 +1302,7 @@ class CfgWeapons
         scope = 2;
         displayName = "Streamlight TLR-1";
         descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-		picture = "\hlc_core\tex\UI\gear_tlr1_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_tlr1_ca.paa";
         model = "hlc_core\mesh\accessories\acc\tlr1.p3d";
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
@@ -1344,7 +1348,7 @@ class CfgWeapons
         scope = 2;
         displayName = "Steiner DBAL-PL(IR)";
         descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-		file = "\hlc_core\tex\UI\gear_dbal_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
         model = "hlc_core\mesh\accessories\acc\dbal.p3d";
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
@@ -1373,7 +1377,7 @@ class CfgWeapons
         scope = 2;
         displayName = "Steiner DBAL-PL(VIS)";
         descriptionUse = "$STR_A3_cfgWeapons_use_flashlight0";
-        icture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_dbal_ca.paa";
         model = "hlc_core\mesh\accessories\acc\dbal_FL.p3d";
         descriptionShort = "$STR_A3_cfgWeapons_acc_flashlight1";
         class ItemInfo : InventoryFlashLightItem_Base_F
@@ -1448,7 +1452,7 @@ class CfgWeapons
         dlc = "Niarms_core";
         author = " Toadie";
         displayName = "SilencerCo Octane9 (9mm)";
-		picture = "\hlc_core\tex\UI\gear_octane9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_octane9_ca.paa";
         model = "hlc_core\mesh\accessories\barrel\9\octane9.p3d";
     };
     class hlc_muzzle_Evo9 : muzzle_snds_h
@@ -1465,7 +1469,7 @@ class CfgWeapons
         author = "Toadie";
         displayName = "AAC Ti-Rant9 (9mm)";
         model = "hlc_core\mesh\accessories\barrel\9\tirant9.p3d";
-		picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
     };
     class hlc_muzzle_TiRant9S : muzzle_snds_h
     {
@@ -1473,7 +1477,7 @@ class CfgWeapons
         author = "Toadie";
         displayName = "AAC Ti-Rant9S (9mm)";
         model = "hlc_core\mesh\accessories\barrel\9\tirant9s.p3d";
-		picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
+        picture = "\hlc_core\tex\UI\gear_tirant9_ca.paa";
     };
     class hlc_muzzle_Octane45 : hlc_muzzle_Octane9
     {

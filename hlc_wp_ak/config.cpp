@@ -107,6 +107,8 @@ class CfgGesturesMale {
             speed = -4.8;
             looped = false;
             mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
             rightHandIKCurve[] = { 0, 1, 1, 1 };
             leftHandIKBeg = true;
             leftHandIKEnd = true;
@@ -118,6 +120,8 @@ class CfgGesturesMale {
             speed = -4.8;
             looped = false;
             mask = "handsWeapon";
+            headBobStrength = 0.1;
+            headBobMode = 2;
             rightHandIKCurve[] = { 0, 1, 1, 1 };
             leftHandIKBeg = true;
             leftHandIKEnd = true;
@@ -131,6 +135,8 @@ class CfgGesturesMale {
             speed = -4.8;
             looped = false;
             mask = "handsWeapon";
+            headBobStrength = 0.2;
+            headBobMode = 2;
             rightHandIKCurve[] = { 0, 1, 1, 1 };
             leftHandIKBeg = true;
             leftHandIKEnd = true;
@@ -141,6 +147,8 @@ class CfgGesturesMale {
             speed = -4.8;
             looped = false;
             mask = "handsWeapon";
+            headBobStrength = 0.1;
+            headBobMode = 2;
             rightHandIKCurve[] = { 0, 1, 1, 1 };
             leftHandIKBeg = true;
             leftHandIKEnd = true;
@@ -359,8 +367,8 @@ class CfgMagazines {
     };
     class hlc_45Rnd_545x39_m_rpk : hlc_30Rnd_545x39_T_ak {
         dlc = "Niarms_AK";
-		author = "Toadie";
-		scope = 2;
+        author = "Toadie";
+        scope = 2;
         ammo = "FH_545x39_Tracer";
         count = 45;
         displaynameshort = "7T3 Tracer";
@@ -375,7 +383,7 @@ class CfgMagazines {
     class hlc_60Rnd_545x39_t_rpk : hlc_30Rnd_545x39_T_ak {
         dlc = "Niarms_AK";
         author = "Toadie";
-		scope = 2;
+        scope = 2;
         ammo = "FH_545x39_Tracer";
         count = 60;
         displaynameshort = "Tracer/Ball";
@@ -565,7 +573,7 @@ class CfgMagazines {
         scope = 2;
         ammo = "G_40mm_HE";
         count = 1;
-        displaynameshort = "HE Grenade";
+        displaynameshort = "HE Grenade Round";
         displayname = "VOG25 HE Grenade Round";
         descriptionshort = "Type: High Explosive Grenade Round<br />Caliber: 40 mm<br />Rounds: 1<br />Used in: GP25,GP30";
         initspeed = 76;
